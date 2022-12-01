@@ -2,9 +2,9 @@ server:
   port: 7777
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/blog?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
-    username: root
-    password: 123456
+    url: ###
+    username: ###
+    password: ###
     driver-class-name: com.mysql.cj.jdbc.Driver
   servlet:
     multipart:
@@ -23,7 +23,7 @@ mybatis-plus:
       id-type: auto
 
 oss:
-  accessKey: LTAI5t9VdvvKCJzEGSHu9Wva
-  secretKey: TOV9X7nLK1VM3GCPjQHTtPe0iHP52R
-  bucket: blog-zxd-picture
-  endPoint: oss-cn-hangzhou.aliyuncs.com
+  accessKey: ###
+  secretKey: ###
+  bucket: ###
+  endPoint: ###
